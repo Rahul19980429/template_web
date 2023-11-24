@@ -1,0 +1,761 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,200;0,9..40,400;0,9..40,600;1,9..40,500&display=swap');
+@font-face {
+  font-family: Gotham;
+  src: url(../fonts/Gotham-Font/GothamBook.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 1%,
+    rgba(3, 6, 21, 1) 36%,
+    rgba(3, 8, 25, 1) 43%,
+    rgba(6, 49, 118, 1) 83%
+  );
+}
+.bgColorNav {
+  background: rgb(0, 18, 30);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 18, 30, 1) 1%,
+    rgba(4, 23, 56, 1) 45%,
+    rgba(3, 51, 123, 1) 91%
+  );
+}
+
+.textColor {
+  color: #5e82d0;
+}
+ .placeitems{
+  place-items: center!important;
+ }
+nav ul li a {
+  color: var(--Secondary, #fff) !important;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  /* Label */
+  font-family: Gotham;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 16px */
+  letter-spacing: 0.16px;
+  padding: 30px 0 !important;
+  border-bottom: 3px solid transparent;
+}
+
+nav ul li a:hover {
+  font-weight: 500;
+  border-bottom: 3px solid white;
+}
+
+.signupBtn {
+  display: flex;
+  width: 153px;
+  height: 41px;
+  padding: 17px 4px 17px 35px;
+  align-items: center;
+  gap: 7px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background: var(--Secondary, #fff);
+  color: var(--Primary, #036) !important;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Gotham;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500!important;
+  line-height: 100%; /* 16px */
+  letter-spacing: 0.16px;
+  text-decoration: none;
+}
+
+/* section2 */
+
+.bgColorSection {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 1%,
+    rgba(3, 6, 21, 1) 36%,
+    rgba(3, 8, 25, 1) 43%,
+    rgba(6, 49, 118, 1) 83%
+  );
+}
+.logo {
+  width: 43px;
+  height: 43px;
+}
+.bigHeading {
+  color: var(--Secondary, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Gotham;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 60px */
+  letter-spacing: 0.5px;
+}
+.headingBelowText {
+  color: var(--Secondary, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Gotham;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 28.8px */
+  letter-spacing: 0.18px;
+}
+
+.smallText {
+  color: var(--Secondary, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  /* Body */
+  font-family: Gotham;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+  letter-spacing: 0.16px;
+}
+
+.callTab {
+  border-radius: 12px;
+  border: 1px solid #fff;
+  width: 268px;
+  height: 46px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.callTab > button,
+.callTab > button:hover {
+  border-radius: 12px;
+  background: var(--Secondary, #fff);
+  display: flex;
+  width: 69px;
+  height: 46px;
+  padding: 17px 4px 17px 20px;
+  align-items: center;
+  gap: 7px;
+  flex-shrink: 0;
+  color: var(--Primary, #036);
+  float: right;
+  border: none;
+}
+.whatsappLogo {
+  width: 55px;
+  height: 55px;
+  flex-shrink: 0;
+}
+
+.section2Font {
+  color: #000;
+  font-family: Gotham;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%; /* 55px */
+}
+
+.section2FontColor {
+  color: var(--blue-3, #0059ff);
+}
+.rupee {
+  width: 37px;
+  height: 37px;
+  flex-shrink: 0;
+ 
+}
+
+.section2Pset {
+  color: rgba(0, 0, 0, 0.9);
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* Sub-Heading */
+  font-family: Gotham;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%; /* 28.8px */
+  letter-spacing: 0.18px;
+}
+
+.sliderImg {
+  width: 191px;
+  height: 79px;
+}
+.bgColorSection5 {
+  background: rgb(2, 20, 60);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 20, 60, 1) 13%,
+    rgba(6, 15, 58, 1) 15%,
+    rgba(3, 6, 21, 1) 40%,
+    rgba(9, 32, 102, 1) 83%
+  );
+}
+/* footer */
+.footerFont,
+footer > ul > li > a {
+  color: #fff;
+  font-feature-settings: "clig" off, "liga" off;
+  /* Paragraph/Default */
+  font-family: 'DM Sans', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+.footerFont {
+  line-height: 30px;
+}
+footer > ul > li > a {
+  line-height: 20px;
+}
+.footerLinkHeading {
+  color: #fff;
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* Text Single/300/Bold */
+  font-family: 'DM Sans', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px; /* 110% */
+}
+
+/* / */
+/* Create Accoount Page Css */
+/*  */
+
+.formSetup {
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  background: var(
+    --Gradient-2,
+    linear-gradient(324deg, #082872 2.06%, rgba(0, 89, 177, 0.17) 100%)
+  );
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.15);
+  
+}
+.formHeading {
+  color: var(--Secondary, #fff);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  /* Heading */
+  font-family: Gotham;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%; /* 38.4px */
+  letter-spacing: 0.24px;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="email"],
+select option {
+  border-radius: 12px !important;
+  border: 1px solid #fff;
+  background: inherit !important;
+  color: #fff !important;
+  padding: 12px !important;
+}
+.form-date {
+  display: block;
+  width: 100%;
+  border-radius: 12px !important;
+  background: inherit !important;
+  padding: 12px 2.25rem 12px 0.75rem !important;
+  -moz-padding-start: calc(0.75rem - 3px);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #fff !important;
+  background-color: #fff;
+  /* background-image: url('/assets/images/calendar.png')!important; */
+  background-repeat: no-repeat !important;
+  background-position: right 0.75rem center !important;
+  background-size: 16px 12px;
+  border: 1px solid #ced4da;
+  border-radius: 0.375rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.form-select {
+  border-radius: 12px !important;
+  background: inherit !important;
+  padding: 12px 2.25rem 12px 0.75rem !important;
+  -moz-padding-start: calc(0.75rem - 3px);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #fff !important;
+  background-color: #fff;
+  background-image: url("/assets/images/chevron-down.png") !important;
+  background-repeat: no-repeat !important;
+  background-position: right 0.75rem center !important;
+  background-size: 16px 12px;
+  border: 1px solid #ced4da;
+  border-radius: 0.375rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+form input {
+  color: white;
+}
+form input:focus,
+form select:focus {
+  box-shadow: none !important;
+  border-color: #fff !important;
+}
+
+form input:focus::placeholder {
+  color: #fff !important;
+}
+.getotpBtn {
+  color: var(--Primary, #036) !important;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  /* Button */
+  font-family: Gotham;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500 !important;
+  line-height: 100%; /* 16px */
+}
+.Alreadylink {
+  color: #fff;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Gotham;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0%; /* 0px */
+  letter-spacing: 0.16px;
+}
+
+.formDownBtn {
+  border-radius: 12px;
+  border: 1px solid #fff;
+  background-color: initial;
+  color: var(--Secondary, #fff);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  padding: 10px 75px;
+  /* Body */
+  font-family: Gotham;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+  letter-spacing: 0.16px;
+}
+
+.resendOTP {
+  color: var(--Secondary, #fff);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* Subheading Mobile */
+  font-family: Gotham;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%; /* 22.4px */
+  letter-spacing: 0.14px;
+  text-decoration: none;
+  top: 14px;
+  right: 25px;
+}
+
+/*  */
+/* Kyc Submitission 1st */
+/*  */
+.formInnerPadding {
+  padding: 0px 168px;
+}
+.pillButton {
+  width: 229.187px;
+  height: 47.262px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: #ffffff2e;
+  border: none;
+  color: var(--Secondary, #fff) !important;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* Mobile P1 */
+  font-family: Gotham;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 22.4px */
+  letter-spacing: 0.14px;
+}
+
+.pillButton:active,
+.activeBtn {
+  border: 1px solid #fff !important;
+  font-weight: 500px;
+}
+
+.requiredInfo {
+  color: var(--Secondary, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  /* Body */
+  font-family: Gotham;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+  letter-spacing: 0.16px;
+}
+
+.uploadBtnSet {
+  width: 211px;
+  height: 46px;
+  color: var(--Primary, #036) !important;
+  font-feature-settings: "clig" off, "liga" off;
+  /* Button */
+  font-family: Gotham;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 16px */
+}
+
+.uploadBtnInfo {
+  color: #fff;
+  text-align: right;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Gotham;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 120%; /* 14.4px */
+  letter-spacing: 0.12px;
+}
+.checkLabel {
+  color: #fff;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Gotham;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 140%; /* 16.8px */
+  letter-spacing: 0.12px;
+}
+.agreeBtn {
+  display: flex;
+  width: 423px;
+  height: 52px;
+  padding: 16px 0px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  color: var(--Primary, #036);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  /* Button */
+  font-family: Gotham;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500 !important;
+  line-height: 100%; /* 16px */
+}
+.form-check-input[type="checkbox"] {
+  border-radius: 0px !important;
+  background-color: #036;
+  border-color: #fff !important ;
+}
+.form-check-input:checked {
+  border-color: #fff !important ;
+}
+.form-check-input:checked[type="checkbox"] {
+  background-image: url(../images/checkbox-outline.png);
+  border-radius: 0px !important;
+  background-color: #036;
+}
+select > option {
+  background-color: #036 !important;
+}
+/* *****************************************************************************/
+
+/*  */
+/* kyc document Preview */
+/*  */
+
+.ReviewBox {
+  padding: 0px 200px;
+}
+
+.retakeBtn {
+  color: var(--Primary, #036);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  /* Button */
+  font-family: Gotham;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500 !important;
+  line-height: 100%; /* 16px */
+}
+
+/*  */
+/* KycAddPhoto */
+/*  */
+.takePhotoBox {
+  padding: 0 332px;
+}
+.btnBelowPic {
+  width: 190px;
+  height: 46px;
+  color: var(--Primary, #036);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  /* Button */
+  font-family: Gotham;
+  font-size: 16px !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  line-height: 100%; /* 16px */
+}
+
+/*  */
+/* track progress */
+/*  */
+.tractId {
+  border-radius: 4px;
+  background: #ffffff2e;
+  color: var(--Secondary, #fff);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  /* Mobile P1 */
+  font-family: Gotham;
+  font-size: 14px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 22.4px */
+  letter-spacing: 0.14px;
+}
+.ContactLinksHeading{
+  color: var(--Secondary, #FFF);
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+/* Sub-Heading */
+font-family: Gotham;
+font-size: 18px!important;
+font-style: normal;
+font-weight: 500;
+line-height: 160%; /* 28.8px */
+letter-spacing: 0.18px;
+}
+/* ************************************************************************************************ */
+@media screen and (max-width: 580px) {
+  .navBarSm{
+    height: 100vh;
+  }
+  nav ul li {
+    padding: 0px 15px !important;
+  }
+  nav ul li a,
+  .LoginLink {
+    border-bottom: 0px;
+    text-align: left;
+    font-family: Gotham;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 16px */
+    letter-spacing: 0.16px;
+    padding: 25px 0px !important;
+    border-bottom: 1px solid #fff;
+  }
+  nav ul li a:hover {
+    border-bottom: 0px solid transparent;
+  }
+  .signupBtn {
+    width: 108px;
+    height: 35px;
+    padding: 10px 9px 10px 14px;
+  }
+  .bigHeading {
+    color: var(--Secondary, #fff);
+    text-align: center;
+    font-feature-settings: "clig" off, "liga" off;
+
+    /* Mobile H1 */
+    font-family: Gotham;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 36px */
+    letter-spacing: 0.3px;
+  }
+  .headingBelowText {
+    color: var(--Secondary, #fff);
+    text-align: center;
+    font-feature-settings: "clig" off, "liga" off;
+    /* Mobile P1 */
+    font-family: Gotham;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 22.4px */
+    letter-spacing: 0.14px;
+  }
+  .smallText {
+    color: var(--Secondary, #fff);
+    font-feature-settings: "clig" off, "liga" off;
+
+    /* Mobile P Small */
+    font-family: Gotham;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 16.8px */
+    letter-spacing: 0.12px;
+  }
+  .section2Font {
+    color: #000;
+    text-align: center;
+    font-feature-settings: "clig" off, "liga" off;
+    /* Heading 24 Bold */
+    font-family: Gotham;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%; /* 38.4px */
+    letter-spacing: 0.24px;
+  }
+
+  
+  .rupee {
+    width: 17px;
+    height: 17px;
+    flex-shrink: 0;
+  }
+  .section2Pset {
+    color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+    font-feature-settings: "clig" off, "liga" off;
+    /* Mobile Small Bold */
+    font-family: Gotham;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 16.8px */
+    letter-spacing: 0.12px;
+  }
+  .footerPolicyLink {
+    font: 0.6rem !important;
+  }
+
+  /*  */
+  /* create account */
+  /*  */
+
+  .formDownBtn {
+    padding: 16px 40px;
+  }
+
+  /*  */
+  /* kyc */
+  /*  */
+  .formInnerPadding {
+    padding: 0px !important;
+  }
+  .agreeBtn {
+    display: flex;
+    width: 343px;
+    height: 52px;
+    padding: 16px 0px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+  }
+
+  /*  */
+  /*  */
+  /* kyc document Preview */
+  /*  */
+
+  .ReviewBox {
+    padding: 0px 0px;
+  }
+  /*  */
+  /* KycAddPhoto */
+  /*  */
+  .takePhotoBox {
+    padding: 0 0px;
+  }
+
+  
+}
+
+@media screen and (max-width: 990px) {
+  nav ul li {
+    padding: 0px 15px !important;
+  }
+  nav ul li a,
+  .LoginLink {
+    border-bottom: 0px;
+    text-align: left;
+    font-family: Gotham;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 16px */
+    letter-spacing: 0.16px;
+    padding: 25px 0px !important;
+    border-bottom: 1px solid #fff;
+  }
+  nav ul li a:hover {
+    border-bottom: 0px solid transparent;
+  }
+
+  .formInnerPadding {
+    padding: 0px !important;
+  }
+  .agreeBtn {
+    display: flex;
+    width: 343px;
+    height: 52px;
+    padding: 16px 0px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+  }
+
+  /*  */
+  /* kyc document Preview */
+  /*  */
+
+  .ReviewBox {
+    padding: 0px 0px;
+  }
+
+  /*  */
+  /* KycAddPhoto */
+  /*  */
+  .takePhotoBox {
+    padding: 0 0px;
+  }
+ 
+}
